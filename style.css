@@ -117,12 +117,17 @@ header {
 .card h2:hover,
 .card ul li strong:hover,
 .card ul li img:hover {
-    transition: transform 0.5s;    
+    transition: transform 0.2s;   
 }
 
 .card {
     opacity: 0;
     animation: appear 1.2s forwards;
+}
+
+#timeum p,
+#timedois p {
+    font-size: 10px;
 }
 
 @keyframes appear {
